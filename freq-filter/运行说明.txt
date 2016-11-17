@@ -1,0 +1,20 @@
+ideal_lpfilter,ideal_hpfilter,btw_lpfilter,btw_hpfilter,gaussian_hpfilter,gaussian_lpfilter
+是主函数，其他子函数自动调用
+
+在f = imread('4.jpg');更改图像名称
+
+在hpfilter('btw', PQ(1), PQ(2), D1(i))中切换三种滤波模式
+ideal，gaussian，btw
+低通的半径是D0，高通半径是D1
+
+hpfiter_boost的功能是增强高通滤波
+
+ideal_lpfilter   理想低通
+ideal_hpfilter   理想高通
+
+btw_lpfilter   btw低
+btw_hpfilter   btw高
+
+gaussian_hpfilter  高斯高
+
+gaussian_lpfilter  高斯低
